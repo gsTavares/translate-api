@@ -8,7 +8,9 @@ For translation full support and features, please use the [Google Cloud Translat
 ### `/translate`
 #### Request params
 `sl: string` - The source language tag (ex. "en", "pt")
+
 `tl: string` - The target language tag
+
 `text: string` - Text to be translated. Be sure it laguage matches with the `sl` param for more precisly result
 
 ### Example
